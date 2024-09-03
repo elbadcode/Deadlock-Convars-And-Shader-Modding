@@ -1,0 +1,19 @@
+//copied from post in martysmod discord
+
+GAME NAME: Deadlock
+Game Exe: project8.exe
+RTGI: 2407
+DLL: Reshade 6.2.0 
+Additional Wrappers: no but may want renodx, rest, or 3dmigoto to fix some issues
+Reversed depth: yes
+Upside down depth: no
+log depth: no
+Workarounds/notes: 
+Important note on mp
+This is a multiplayer game and doesn't like wrapper DLLs but its okay being injected. This game is currently in closed testing and may or may not have anticheat active, but as with all valve games this is a non issue when launched with "-insecure" startup arg which also allows you to use sv_cheats and is completely fine for offline or online bot matches. I have not tried it in real matches and don't recommend trying as even if it works right now it won't on release and you could get manually banned if you abuse things. However just to reiterate, using the -insecure startup arg is the officially supported method to do whatever you want with valve games and in released titles will outright prevent you from joining matches
+Depth
+There are many depth buffers and you will need to check one of them every match since they disappear during menus. Will be posting stuff to the shader gallery channel after this to show this. An early depth buffer gives best results with the caveat that it induces transparency on the player character model. A later one works without this issue but is very low res (I think its for depth of field but its odd that it stays active even if DOF is turned off). I believe with some console variables the player transparency should be fixable and I messed around with some but I'm not familiar with source2 yet and many don't work in this game
+UI
+dh_uber_mask took care of most issues or you can hide it with renodx/st. Havent used rest but that should work
+Game Settings
+Recommend disable bloom, fxaa, fsr
