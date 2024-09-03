@@ -4,3 +4,6 @@ in theory if VAC is active you wont be able to join public matches like this. I 
 feel free to fork or pull request to add any information as long as it remains on topic and is not used to aid or encourage cheating in actual games.
 
 small note: the game appears to use gpu skinning meaning 3dmigoto based skin mods should be very possible. I don't have time or interest to pursue this knowing it won't be possible in online matches and could likely be done by more conventional modding techniques in the final game, but if anyone is interested I'm willing to help out
+
+
+I havent even played a real match of this game yet
